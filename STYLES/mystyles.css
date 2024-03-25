@@ -11,5 +11,72 @@ a{
     text-decoration: none;
 }
 /*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/*header*?
+.flex-main-container{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; 
+}
+
+/*header*/
+.site-header{
+
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+
+.image{
+    background-image: url(file:///Users/amberpatton007/Documents/Projects%20Cohort%2047/realEstate/img1/header.jpg);
+}
+
+.menu a{
+    color: white;
+    margin-right: 20px;
+}
+.flex-container-menu{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;/*horizontal*/
+    height: 100px;/*vertical*/
+}
+.header-secondary{
+    background-color: black;
+    color: white
+}
+
+.header-tertiary{
+background-position: center center;
+background-size: cover;
+height: 180px;
+color: rgb(255, 255, 255);
+text-align: center;
+}
+.header-text{
+    background-position: center; 
+    background-color:rgb(80, 33, 2);
+    width: auto;
+}
+
+/*footer*/
+.site-footer{
+    background-image: url(img1/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
