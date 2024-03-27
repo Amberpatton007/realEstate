@@ -10,38 +10,177 @@ a{
     color:black;
     text-decoration: none;
 }
+
+p{
+    font-size: 0.8rem;
+}
+
+h1, h2, h3{
+    margin: 0.8rem 0.8rem;
+}
+
+h1{
+    font-size: 2.3rem;
+}
+
+h2{
+    font-size: 1.9rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+.flex-container-table h3{
+    text-align:center;
+}
+
+.flex-container-table img{
+    display: block;
+    margin: 1rem auto;
+}
+
+
+.a1{
+    color: white;
+    text-decoration: none;
+}
 /*utilities*/
+.content{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.wrapper{
+    width: 500x;
+    height: 275px;
+}
+
+.wrapper2{
+    width: 500x;
+    height: 800px;
+}
+
+.btn{
+
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn1{
+    display: inline-block;
+    background-color: rgb(207, 140, 25);}
+
+.btn2{
+    height: 20%;
+    display: inline-flex;
+    background-color: rgb(207, 140, 25);
+
+}
+
+.btn3{
+    background-color: rgb(142, 96, 4);
+}
+
+.menu a{
+    justify-content: center;
+
+}
+
+.btn4{
+    justify-content:space-around;
+}
 .container{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    background-color: lightgray;
+    border: solid black;
 }
 
+.container2{
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(207, 140, 25);
+
+
+}
 .flex-main-container{
     display: flex;
 }
 
+
+.style-1{
+    font-size: xx-large;
+}
+
+.flex-container-table{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
 .flex-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 400px; 
 }
 
+.price-color{
+    color: rgb(25, 174, 25);
+    text-decoration: none;
+}
+
 /*header*/
 .site-header{
-
+    display: flex;
+    background-image: url(../img1/header.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
+    flex-direction: column;
+    justify-content: top;
     background-size: cover;
     height: 400px;
     color: white;
     text-align: center;
 }
 
-.image{
-    background-image: url(file:///Users/amberpatton007/Documents/Projects%20Cohort%2047/realEstate/img1/header.jpg);
+.header-secondary{
+    background-color: rgb(207, 140, 25);
+    background-position: center center;
+    flex-direction: column;
+    justify-content: top;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
 }
+
+.img-info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}
+
+.column {
+    text-align:center;
+    width: center;
+    float: column;
+}
+
 
 .menu a{
     color: white;
@@ -49,14 +188,11 @@ a{
 }
 .flex-container-menu{
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;/*horizontal*/
     height: 100px;/*vertical*/
 }
-.header-secondary{
-    background-color: black;
-    color: white
-}
+
 
 .header-tertiary{
 background-position: center center;
@@ -73,7 +209,7 @@ text-align: center;
 
 /*footer*/
 .site-footer{
-    background-image: url(img1/encuentra.jpg);
+    background-image: url(../img1/encuentra.jpg);
     background-position: center center;
     background-size: cover;
     height: 80px;
